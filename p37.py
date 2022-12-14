@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.geometry("400x400")
+root.resizable(0,0)
+lb1 = Listbox(root)
+lb1.insert(1,"Python")
+lb1.insert(2,"DWDM")
+lb1.insert(3,"Android")
+lb1.insert(4,"Project")
+lb1.insert(5,"Practical")
+lb1.pack()
+mainloop()
